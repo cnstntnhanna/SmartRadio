@@ -1,7 +1,7 @@
 let countries = []
 let stations = []
 
-const baseURL = "http://de1.api.radio-browser.info/json/"
+const baseURL = "https://de1.api.radio-browser.info/json/"
 // LOAD COUNTRIES
 async function loadCountries(params){
     const res = await fetch(`${baseURL}countries`)
